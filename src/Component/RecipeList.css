@@ -1,0 +1,8 @@
+.card:hover{
+     transition:all 0.8s;
+     cursor: pointer;
+     /* transform:rotateX('angle') */
+     background-color: beige;
+     transform: rotate(11deg);
+ 
+}

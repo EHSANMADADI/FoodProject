@@ -1,0 +1,17 @@
+.btn-banafsh{
+     background-color:blueviolet !important;
+     color: #fff !important;
+}
+.btn-banafsh:hover{
+     color:blueviolet !important;
+     background-color: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
+.text-erea{
+ height: 9rem !important;
+}
+.item{
+     background-color: #fff;
+     border-radius: 8px;
+
+}

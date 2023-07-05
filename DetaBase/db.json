@@ -1,0 +1,32 @@
+{
+     "recipes":[
+          {
+               "id":1,
+               "title": "Pizza Mix",
+               "ingredients":["1 Carrot","1Leek","200g Tofu","300ml veg stock"],
+               "method": "1 . lorem ipsum d lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ipsolor lorem ipsum dolor lorem ips",
+               "cookingTime":"45 minutes"
+          },
+          {
+               "id":2,
+               "title": "Pizza Mix",
+               "ingredients":["1 Carrot","1Leek","200g Tofu","300ml veg stock"],
+               "method": "1 . lorem ipsum dolor lor  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ipsem ipsum dolor lorem ips",
+               "cookingTime":"45 minutes"
+          },
+          {
+               "id":3,
+               "title": "Pizza Mix",
+               "ingredients":["1 Carrot","1Leek","200g Tofu","300ml veg stock"],
+               "method": "1 . lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips",
+               "cookingTime":"45 minutes"
+          },
+          {
+               "id":4,
+               "title": "Pizza Mix",
+               "ingredients":["1 Carrot","1Leek","200g Tofu","300ml veg stock"],
+               "method": "1 . lorem ipsum d lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ipsolor lorem ipsum dolor lorem ips",
+               "cookingTime":"45 minutes"
+          }
+     ]
+}

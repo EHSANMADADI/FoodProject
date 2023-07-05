@@ -1,0 +1,13 @@
+.Nav{
+     background-color: blueviolet;
+}
+.link{
+     border-radius: 5px;
+     
+}
+.link:hover{
+     transition: all 0.4s;
+   color: blueviolet !important;
+   background-color: #fff;
+     
+}
