@@ -24,7 +24,7 @@ export default function Create() {
 
   const habdelSubmit = (e) => {
     e.preventDefault();
-    postData({ title, add, method, cookingTime: cookingTime + 'minutes' })
+    postData({ title, ingredients:add, method, cookingTime: cookingTime + 'minutes' })
     setAdd([]);
     setCookingTime('');
     setMethod('');setTitle('')

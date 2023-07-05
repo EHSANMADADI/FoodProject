@@ -49,35 +49,16 @@
       "cookingTime": "45 minutes"
     },
     {
-      "title": "Omlet",
-      "add": [
+      "title": "omlet",
+      "ingredients": [
         "edgg",
         "roqan",
-        "rob",
-        "goge",
-        "namak"
+        "namak",
+        "rob"
       ],
-      "method": "in food is beatifull and popular and good",
-      "cookingTime": "15minutes",
+      "method": "this is very good and delishes food and popular in iran and student in univercity\n",
+      "cookingTime": "17minutes",
       "id": 5
-    },
-    {
-      "title": "estanboli",
-      "add": [
-        "efwew"
-      ],
-      "method": "feewgflkmfpelm;f",
-      "cookingTime": "20minutes",
-      "id": 6
-    },
-    {
-      "title": "sdq",
-      "add": [
-        "knm,4"
-      ],
-      "method": "m jnvgcxdrzwezxhjbklml;m hctyfvgb;kl",
-      "cookingTime": "11minutes",
-      "id": 7
     }
   ]
 }
