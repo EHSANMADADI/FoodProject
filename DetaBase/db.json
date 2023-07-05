@@ -1,32 +1,83 @@
 {
-     "recipes":[
-          {
-               "id":1,
-               "title": "Pizza Mix",
-               "ingredients":["1 Carrot","1Leek","200g Tofu","300ml veg stock"],
-               "method": "1 . lorem ipsum d lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ipsolor lorem ipsum dolor lorem ips",
-               "cookingTime":"45 minutes"
-          },
-          {
-               "id":2,
-               "title": "Pizza Mix",
-               "ingredients":["1 Carrot","1Leek","200g Tofu","300ml veg stock"],
-               "method": "1 . lorem ipsum dolor lor  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ipsem ipsum dolor lorem ips",
-               "cookingTime":"45 minutes"
-          },
-          {
-               "id":3,
-               "title": "Pizza Mix",
-               "ingredients":["1 Carrot","1Leek","200g Tofu","300ml veg stock"],
-               "method": "1 . lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips",
-               "cookingTime":"45 minutes"
-          },
-          {
-               "id":4,
-               "title": "Pizza Mix",
-               "ingredients":["1 Carrot","1Leek","200g Tofu","300ml veg stock"],
-               "method": "1 . lorem ipsum d lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ipsolor lorem ipsum dolor lorem ips",
-               "cookingTime":"45 minutes"
-          }
-     ]
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pizza Mix",
+      "ingredients": [
+        "1 Carrot",
+        "1Leek",
+        "200g Tofu",
+        "300ml veg stock"
+      ],
+      "method": "1 . lorem ipsum d lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ipsolor lorem ipsum dolor lorem ips",
+      "cookingTime": "45 minutes"
+    },
+    {
+      "id": 2,
+      "title": "Pizza Mix",
+      "ingredients": [
+        "1 Carrot",
+        "1Leek",
+        "200g Tofu",
+        "300ml veg stock"
+      ],
+      "method": "1 . lorem ipsum dolor lor  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ipsem ipsum dolor lorem ips",
+      "cookingTime": "45 minutes"
+    },
+    {
+      "id": 3,
+      "title": "Pizza Mix",
+      "ingredients": [
+        "1 Carrot",
+        "1Leek",
+        "200g Tofu",
+        "300ml veg stock"
+      ],
+      "method": "1 . lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ips",
+      "cookingTime": "45 minutes"
+    },
+    {
+      "id": 4,
+      "title": "Pizza Mix",
+      "ingredients": [
+        "1 Carrot",
+        "1Leek",
+        "200g Tofu",
+        "300ml veg stock"
+      ],
+      "method": "1 . lorem ipsum d lorem ipsum dolor lorem ipsum dolor lorem ips  lorem ipsum dolor lorem ipsum dolor lorem ipsolor lorem ipsum dolor lorem ips",
+      "cookingTime": "45 minutes"
+    },
+    {
+      "title": "Omlet",
+      "add": [
+        "edgg",
+        "roqan",
+        "rob",
+        "goge",
+        "namak"
+      ],
+      "method": "in food is beatifull and popular and good",
+      "cookingTime": "15minutes",
+      "id": 5
+    },
+    {
+      "title": "estanboli",
+      "add": [
+        "efwew"
+      ],
+      "method": "feewgflkmfpelm;f",
+      "cookingTime": "20minutes",
+      "id": 6
+    },
+    {
+      "title": "sdq",
+      "add": [
+        "knm,4"
+      ],
+      "method": "m jnvgcxdrzwezxhjbklml;m hctyfvgb;kl",
+      "cookingTime": "11minutes",
+      "id": 7
+    }
+  ]
 }

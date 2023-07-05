@@ -4,10 +4,10 @@ import './RecipeList.css'
 export default function RecipeList({ recepies }) {
      return (
           <>
-               <div className="container d-flex justify-content-between mt-5">
+               <div className="container d-flex justify-content-between mt-5 ">
                     {recepies.map((item) => (
 
-                         <div className="card border-3  mx-2 p-4" key={item.id}>
+                         <div className="card border-3 col-md-3 my-4  mx-1 p-4" key={item.id}>
                               <h2>{item.title}</h2>
                               <p className='text-muted'>{item.cookingTime} to make</p>
                               <div className="text-muted">{item.method.substring(0, 80)}...</div>

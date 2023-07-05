@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './Create.css'
+import { useFeach } from '../../Hook/useFeach'
 export default function Create() {
   const [title, setTitle] = useState('')
   const [method, setMethod] = useState('')
@@ -8,25 +9,34 @@ export default function Create() {
   const [ingredints, setIngredints] = useState('');
   const [add, setAdd] = useState([])
 
+
+  const { postData,data, error } = useFeach("http://localhost:3000/recipes", 'POST')
+
+
   const handel = (e) => {
     e.preventDefault();
     if (ingredints && !add.includes(ingredints)) {
       setAdd((prevAdd) => [...prevAdd, ingredints])///prevAdd =>درایه های قبلی آرایه
       setIngredints('')
     }
-    else {
-
-    }
 
   }
 
+  const habdelSubmit = (e) => {
+    e.preventDefault();
+    postData({ title, add, method, cookingTime: cookingTime + 'minutes' })
+    setAdd([]);
+    setCookingTime('');
+    setMethod('');setTitle('')
+
+  }
   console.log(add)
   return (
     <div>
 
 
 
-      <form onSubmit={(e) => e.preventDefault()} className="container mt-5 p-5 border-5 w-50 ">
+      <form onSubmit={habdelSubmit} className="container mt-5 p-5 border-5 w-50 ">
         <h4 className="mb-3">Add New Recipe</h4>
 
         <div className="form-floating mb-3">
@@ -46,7 +56,7 @@ export default function Create() {
             return (<>
               <div className="item p-3 m-3"><span>{item}</span></div>
             </>)
-          })} 
+          })}
         </div>
 
 

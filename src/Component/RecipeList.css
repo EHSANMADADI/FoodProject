@@ -6,3 +6,7 @@
      transform: rotate(11deg);
  
 }
+
+.container{
+     flex-wrap: wrap !important;
+}
