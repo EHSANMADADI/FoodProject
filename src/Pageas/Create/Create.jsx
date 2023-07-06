@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
 import './Create.css'
 import { useFeach } from '../../Hook/useFeach'
+import{Link, useNavigate} from 'react-router-dom'
 export default function Create() {
   const [title, setTitle] = useState('')
   const [method, setMethod] = useState('')
@@ -22,12 +23,24 @@ export default function Create() {
 
   }
 
+  console.log(postData);
+
+
+const navigate=useNavigate();
+  useEffect(()=>{
+    if(data){
+      navigate('/')
+
+    }
+  },[data])
+
   const habdelSubmit = (e) => {
     e.preventDefault();
-    postData({ title, ingredients:add, method, cookingTime: cookingTime + 'minutes' })
+    postData({title, ingredients:add, method, cookingTime: cookingTime + 'minutes' })
     setAdd([]);
     setCookingTime('');
-    setMethod('');setTitle('')
+    setMethod('');
+    setTitle('')
 
   }
   console.log(add)
